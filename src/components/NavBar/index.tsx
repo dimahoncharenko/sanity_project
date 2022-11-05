@@ -55,6 +55,7 @@ export const NavBar = () => {
             <a
               href="https://facebook.com/"
               target="_blank"
+              rel="noreferrer"
               className="rounded-md bg-white text-blue-800 text-3xl"
             >
               <ImFacebook2 />
@@ -62,6 +63,7 @@ export const NavBar = () => {
             <a
               href="https://linkedin.com/"
               target="_blank"
+              rel="noreferrer"
               className="rounded-md bg-white text-sky-600 text-3xl"
             >
               <BsLinkedin />
@@ -69,6 +71,7 @@ export const NavBar = () => {
             <a
               href="https://youtube.com/"
               target="_blank"
+              rel="noreferrer"
               className="bg-white rounded-sm text-rose-500 text-3xl"
             >
               <TfiYoutube className="p-1" />
