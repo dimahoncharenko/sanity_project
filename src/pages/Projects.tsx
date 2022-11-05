@@ -33,6 +33,8 @@ export const Projects = () => {
     })();
   }, []);
 
+  if (error) return <p>Something went wrong: {error.message}</p>;
+
   return (
     <main className="min-h-screen p-12 bg-green-100">
       <section className="container mx-auto">

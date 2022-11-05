@@ -36,6 +36,8 @@ export const Posts = () => {
     })();
   }, []);
 
+  if (error) return <p>Something went wrong: {error.message}</p>;
+
   return (
     <main className="bg-slate-300 min-h-screen p-12">
       <section className="container mx-auto">

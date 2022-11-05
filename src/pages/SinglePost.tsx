@@ -58,6 +58,7 @@ export const SinglePost = () => {
             className="row-span-full col-span-full object-cover rounded-t"
             src={post.image.asset.url}
             style={{ maxHeight: "400px" }}
+            alt=""
           />
           <div className="w-full h-full row-span-full col-span-full flex items-center justify-center">
             <div className="bg-white bg-opacity-80 rounded p-12 shadow">
